@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Triacsin Cleaner - Professional Problem Solver</title>
+    <style>
+        body {
+            background-color: #121212;
+            color: #e0e0e0;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+        .container {
+            width: 90%;
+            max-width: 800px;
+            padding: 20px;
+            border: 1px solid #333;
+            border-radius: 10px;
+            background-color: #1e1e1e;
+        }
+        h1, h2 {
+            color: #ff5722;
+        }
+        p {
+            line-height: 1.6;
+        }
+        .message-board {
+            margin-top: 20px;
+            padding: 10px;
+            border: 1px solid #555;
+            border-radius: 5px;
+            background-color: #292929;
+        }
+        label {
+            display: block;
+            margin: 10px 0 5px;
+        }
+        input, textarea {
+            width: calc(100% - 22px);
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #555;
+            border-radius: 5px;
+            background-color: #333;
+            color: #e0e0e0;
+        }
+        button {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            background-color: #ff5722;
+            color: #121212;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #e64a19;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Triacsin Cleaner</h1>
+        <h2>Professional Problem Solver</h2>
+        <p>With over a decade of experience, I specialize in discreet and thorough cleaning services. No mess is too big, no stain too stubborn. I handle delicate situations with the utmost care and confidentiality.</p>
+        <p>My expertise includes:</p>
+        <ul>
+            <li>Rapid response to unexpected spills</li>
+            <li>Elimination of all traces</li>
+            <li>Meticulous attention to detail</li>
+            <li>Absolute discretion guaranteed</li>
+        </ul>
+        <p>When you need a problem to disappear without a trace, I'm your go-to specialist. Available 24/7 for those urgent situations that can't wait until morning.</p>
+        <p>Remember, it's not just about cleaning—it's about peace of mind.</p>
+
+        <div class="message-board">
+            <h2>Arrange a Meeting</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="location">Location:</label>
+                <input type="text" id="location" name="location" required>
+                
+                <label for="datetime">Date & Time:</label>
+                <input type="datetime-local" id="datetime" name="datetime" required>
+                
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
